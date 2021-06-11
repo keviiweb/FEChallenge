@@ -3,7 +3,7 @@ Challenge for members in the Front-End Team.  The challenge tests basic understa
 
 The challenge is simple, create a registration for for the KE Web App of these exact sepcs:
 
-![Image of Challenge](/images/challenge.jpg)
+![Image of Challenge](/images/challenge.png)
 
 ### Specifications:
 1. Only ReactJS is to be used. No external libraries or frameworks(for this challenge)
