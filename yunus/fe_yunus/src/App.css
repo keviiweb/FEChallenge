@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  width: 17vmin;
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color:#E63946;
+  height: 23vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5vmin);
+  font-weight: bold;
+  color: white;
+}
+
+.App-body {
+  background-color: #F1FAEE;
+  height: 77vh;
+}
+
+.App-registration {
+  font-size: 3vmin;
+  background-color: #F1FAEE;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.App-formheader {
+  font-size: 2.5vmin;
+  padding-top: 25px;
+}
+
+.App-form p{
+  font-size: 2vmin;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.name input, .password input, .studentno input, .net input, .room input{
+  margin: 4px;
+  width:400px;
+}
+
+.block select{
+  margin: 5px;
+}
+
+.radio {
+  padding-right: 2em;
+}
+
+.username input {
+  margin: 5px;
+  width: 800px; 
+}
+
+.App-registration button {
+  width: 200px;
+}
