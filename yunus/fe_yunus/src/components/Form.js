@@ -65,7 +65,7 @@ function Form () {
                             <p>
                                 <label className="password">
                                     Password 
-                                    <input name="password" />
+                                    <input type="password" name="password" />
                                 </label>
                                 <label className="password">
                                     Confirm Password
