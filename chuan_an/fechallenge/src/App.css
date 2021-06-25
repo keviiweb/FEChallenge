@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background: #dae7d5;
+  height: auto
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #df2941;
+  color: white;
+  font-size:15px;
+  height:100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header img {
+  width: 6%;
+  height: auto;
+}
+
+.textLabel {
+  margin-left: 10px;
+  padding: 10px;
+}
+input[type="text"],input[type="radio"] {
+  width: 30%; 
+  margin-left: 10px;
+}
+
+input[type="radio"] {
+  width: 35%; 
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  width: 15%; 
+  margin-left: 10px;
+}
+
+input[name="username"]{
+  width:74%;
+}
+
+input[name="roomNumber"]{
+  width:60%;
+}
+
+#block {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  input[type="text"],input[type="radio"] {
+    width: 100%; 
+    margin-left: 10px;
+  }
+}
