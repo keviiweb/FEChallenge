@@ -1,0 +1,14 @@
+.page-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e63946;
+  color: white;
+  height: 20vh;
+}
+.logo {
+  width: 100px;
+}
+.page-bottom{
+  background-color: #f1faee;
+}

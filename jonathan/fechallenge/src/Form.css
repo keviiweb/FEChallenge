@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+input[type="text"] {
+  flex-grow: 1;
+}
+input[type="password"] {
+  flex-grow: 1;
+}
+label {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#submit {
+  cursor: pointer;
+  background-color: rgb(97, 197, 228);
+  width: 15vh;
+}
